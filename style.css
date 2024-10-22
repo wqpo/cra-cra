@@ -185,11 +185,11 @@ section {
 }
 
 .dessert {
-  background-image: url('./img/dez.jpg');
+  background-image: url('./img/デザート.jpg');
 }
 
 .bread {
-  background-image: url('./img/pan.jpg');
+  background-image: url('./img/パン.jpg');
 }
 
 .coffee {
@@ -198,11 +198,12 @@ section {
 
 /* スマホ用のスタイル */
 @media (max-width: 767.98px) {
-  .col-md-6 {
-    flex: 0 0 100%; /* 100%の幅で表示 */
-    max-width: 100%;
+  .col-md-4 {
+    flex: 0 0 33.33%; /* 3つのカラムを横並びに */
+    max-width: 33.33%;
   }
 }
+
 
 
 .service::after {
