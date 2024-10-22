@@ -198,11 +198,34 @@ section {
 
 /* スマホ用のスタイル */
 @media (max-width: 767.98px) {
-  .col-md-4 {
-    flex: 0 0 33.33%; /* 3つのカラムを横並びに */
-    max-width: 33.33%;
+  .row {
+    display: flex;
+    overflow-x: auto; /* スクロール可能にする */
+  }
+
+  .col-4 {
+    flex: 0 0 auto; /* 自動幅に設定 */
+    width: 33.33%; /* 3つのカラムを横に並べる */
+  }
+
+  .navbar-nav {
+    display: flex; /* フレックスボックスで横並び */
+    flex-wrap: nowrap; /* 折り返さない */
+    overflow-x: auto; /* スクロール可能にする */
+  }
+
+  .nav-item {
+    flex: 1; /* 各ナビアイテムが均等に並ぶようにする */
+    text-align: center; /* 中央揃え */
+  }
+
+  .nav-link {
+    font-size: 14px; /* フォントサイズを調整 */
+    padding: 10px; /* パディングを調整 */
   }
 }
+
+
 
 
 
