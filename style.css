@@ -185,11 +185,11 @@ section {
 }
 
 .dessert {
-  background-image: url('./img/デザート.jpg');
+  background-image: url('./img/メイン.jpg');
 }
 
 .bread {
-  background-image: url('./img/パン.jpg');
+  background-image: url('./img/メイン.jpg');
 }
 
 .coffee {
